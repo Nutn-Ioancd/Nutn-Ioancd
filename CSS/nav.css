@@ -1,0 +1,48 @@
+.wrap{
+  /*width: 960px;*/
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.clearfix:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.header{
+  /*background: #a1bad0;*/
+  background: #FFE6B0;
+  padding:10px;
+}
+.logo a{
+  display:block;
+  /*background: url(https://upload.cc/i1/2019/09/05/hWwqV5.png) no-repeat;*/
+  background: url(../IMAGE/All/logo.png) no-repeat;
+  width: 101px;
+  height: 36px;
+  float:left;
+  text-indent:101%;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.nav{
+  float:right;
+}
+.nav li{
+  float:left;
+}
+.nav a{
+  display:block;
+  padding:10px 15px 10px 10px;
+  text-decoration:none;
+  /*color:#fff;*/
+  /*color:#FFE6B0;*/
+  color: #EA693F;
+  font-size:18px;
+  font-weight:600;
+}
+.nav a:hover{
+  /*color:#fff;*/
+  color:#FF8F6A;
+}
