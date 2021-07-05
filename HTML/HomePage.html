@@ -12,402 +12,113 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     -->
     <style>
-      @media (max-width: 1504px) {
+      .tltIMG {
+          max-width: 58.233vw;
+          left: 4.3236vw;
+          top: 2.292vw;
+        }
         .introIMG {
-          position: absolute; 
-          left: 1vw; 
-          bottom: 5vmin;
+          max-width: 55.946vw;
+          left: 2.97vw;
+          top: 18.9vw;
         }
-        .introIMG img {
-          max-width: 60vw;
-        }
-
         .introTXT {
-          max-width: 35vw;
-          position: absolute; 
-          left: 63vw; 
-          bottom: 5vmin;
+          max-width: 35.45vw;
+          left: 60.84vw;
+          top: 32.9739vw;
+          max-height: 28.5vw;
+          line-height: 1.5;
           overflow: auto;
+          /*border-color: blue; border-style:solid; border-width: 5px;*/
         }
-
+        .introTXT h2 {
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .introTXT p {
+          font-size: 20px;
+        }
         .animalHouse {
-          width: 60vw; 
+          /*max-width: 36vw;*/
+          max-width: 48.4896vw;
           margin: 0 auto;
         }
+        .animalTXT {
+          padding-top: 3.75vw;
+        }
+        .animalTXT h2 {
+          font-size: 25px;
+        }
+        .animalRoom {
+          display: flex; 
+          align-items: center;
+          padding-top: 2vw;
+          padding-bottom: 1vw;
+        }
+        .animalRoom img {
+          float: left; 
+          max-width: 8.81629vw;
+        }
+        .animalRoom p {
+          font-size: 15px;
+          line-height: 1.5;
+        }
+        .posterHouse {
+          max-width: 95vw;
+          margin: 0 auto;
+        }
+        .posterTXT {
+          padding-bottom: 1.5vw;
+        }
+        .posterTXT h2 {
+          font-size: 20px;
+          padding-top: 2vw;
+          padding-bottom: 1vw;
+        }
+        .posterTXT p {
+          line-height: 1.5;
+        }
+        .posterRoom {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: space-around;
+          align-items: center;
+          padding-bottom: 1.5vw;
+        }
+        .posterRoom img {
+          max-width: 25vw;
+        }
+      @media (max-width: 786px) {
+        
+      }
+
+      @media (min-width: 1505px) {
+        
       }
 
       @media (max-width: 500px) {
-        .introTXT {
-          overflow: auto;
-          line-height: 1.2;
-        }
         .introTXT h2 {
-          /*color:green;*/
+          font-weight: bold;
           font-size: 15px;
         }
         .introTXT p {
           font-size: 10px;
         }
-
-        .animalHouse {
-          height: 600px;
-          width: 60vw; 
-          /*border-color: blue; border-style:solid; border-width: 5px;*/
-        }
-
-        .animalRoom {
-          height: 70px; 
-          padding-top: 20px; 
-          /*overflow: auto;*/
-        }
-        .animalRoom h2 {
+        .animalTXT h2 {
           font-size: 15px;
-        }
-        .animalRoom img {
-          height: 40px; 
-          position: absolute; 
-          top: 15px; 
-          /*left: 2vw;*/
-          left: 0px
         }
         .animalRoom p {
           font-size: 10px;
-          line-height: 1.3;
-          /*width: 150px;*/
-          /*width: 80vw;*/
-          position: absolute; 
-          top: 0px; 
-          /*left: 18vw;*/
-          left: 45px;
-          /*overflow: auto;*/
+          /*line-height: 1.5;*/
         }
-
-        .posterHouse {
-          height: 110px;
-          width: 100vw;
-          margin: 0 auto;
-        }
-
-        .posterRoomTXT {
-          max-width: 100vw;
-        }
-        .posterRoomTXT h2 {
+        .posterTXT h2 {
           font-size: 15px;
         }
-        .posterRoomTXT p {
-          padding-top: 25px;
-          font-size: 10px;
-        }
-
-        .posterRoom {
-          max-width: 100vw;
-          height: 40vw;
-        }
-
-        .roomA {
-          
-          max-width: 25vw;
-          left: 5.5vw;
-        }
-        .roomA img {
-          max-width: 25vw;
-        }
-
-        .roomB {
-          
-          width: 25vw;
-          /*margin: 0 auto;*/
-          left: 37.5vw;
-        }
-        .roomB img {
-          max-width: 25vw;
-        }
-
-        .roomC {
-          /*height: 90vw;*/
-          width: 25vw;
-          left: 69.5vw;
-        }
-        .roomC img {
-          max-width: 25vw;
+        .posterTXT p {
+         font-size: 10px; 
         }
       }
-
-      @media (min-width: 500px) and (max-width: 785px) {
-        .introTXT {
-          overflow: auto;
-        }
-        .introTXT h2 {
-          /*color:brown;*/
-          font-size: 25px;
-        }
-
-        .animalHouse {
-          height: 1050px;
-        }
-
-        .animalRoom {
-          height: 90px; 
-          padding-top: 60px; 
-        }
-        .animalRoom h2 {
-          font-size: 25px;
-        }
-        .animalRoom img {
-          height: 100px; 
-          position: absolute; 
-          top: 20px; 
-          left: 15px
-        }
-        .animalRoom p {
-          font-size: 15px;
-          line-height: 1.5;
-          width: 300px; 
-          position: absolute; 
-          top: 15px; 
-          left: 125px;
-          overflow: auto;
-        }
-
-        .posterHouse {
-          height: 1150px;
-          width: 100vw;
-          margin: 0 auto;
-        }
-
-        .posterRoomTXT {
-          max-width: 100vw;
-        }
-        .posterRoomTXT h2 {
-          font-size: 30px;
-        }
-        .posterRoomTXT p {
-          padding-top: 25px;
-        }
-
-        .posterRoom {
-          max-width: 100vw;
-          height: 40vw;
-        }
-
-        .roomA {
-          
-          max-width: 25vw;
-          left: 5vw;
-        }
-        .roomA img {
-          max-width: 25vw;
-        }
-
-        .roomB {
-          
-          width: 25vw;
-          /*margin: 0 auto;*/
-          left: 37vw;
-        }
-        .roomB img {
-          max-width: 25vw;
-        }
-
-        .roomC {
-          /*height: 90vw;*/
-          width: 25vw;
-          left: 69vw;
-        }
-        .roomC img {
-          max-width: 25vw;
-        }
-      }
-
-      @media (min-width: 786px) and (max-width: 1500px) {
-        .introTXT {
-          font-size:18.5px;
-          line-height: 1.4;
-        }
-        .introTXT h2 {
-          /*color:brown;*/
-          font-size: 25px;
-        }
-
-        .animalHouse {
-          height: 1150px;
-        }
-
-        .animalRoom {
-          /*height: 200px;*/
-          height: 110px;
-          padding-top: 60px; 
-        }
-        .animalRoom h2 {
-          font-size: 30px;
-        }
-        .animalRoom img {
-          height: 100px; 
-          position: absolute; 
-          top: 30px; 
-          left: 35px
-        }
-        .animalRoom p {
-          font-size: 20px;
-          line-height: 1.5;
-          width: 480px; 
-          position: absolute; 
-          top: 25px; 
-          left: 150px;
-          overflow: auto;
-        }
-
-        .posterHouse {
-          height: 1150px;
-          width: 100vw;
-          margin: 0 auto;
-        }
-
-        .posterRoomTXT {
-          max-width: 100vw;
-        }
-        .posterRoomTXT h2 {
-          font-size: 30px;
-        }
-        .posterRoomTXT p {
-          padding-top: 25px;
-        }
-
-        .posterRoom {
-          max-width: 100vw;
-          height: 40vw;
-        }
-
-        .roomA {
-          
-          max-width: 25vw;
-          left: 5vw;
-        }
-        .roomA img {
-          max-width: 25vw;
-        }
-
-        .roomB {
-          
-          width: 25vw;
-          /*margin: 0 auto;*/
-          left: 37vw;
-        }
-        .roomB img {
-          max-width: 25vw;
-        }
-
-        .roomC {
-          /*height: 90vw;*/
-          width: 25vw;
-          left: 69vw;
-        }
-        .roomC img {
-          max-width: 25vw;
-        }
-      }
-
-      @media (min-width: 1505px) {
-        .introIMG {
-          /*max-width: 100vw;*/
-          position: absolute; 
-          left: 1vw; 
-          bottom: 5vmin;
-        }
-        .introIMG img {
-          /*max-width: 900vw;*/
-          width: 60vw;
-        }
-
-        .introTXT {
-          max-width: 35vw;
-          position: absolute; 
-          left: 63vw; 
-          bottom: 5vmin;
-          font-size: 40px;
-          line-height: 1.5;
-        }
-        .introTXT h2 {
-          /*color:brown;*/
-          font-size: 50px;
-        }
-
-        .animalHouse {
-          height: 1620px;
-          width: 60vw; 
-          margin: 0 auto;
-        }
-
-        .animalRoom {
-          height: 185px; 
-          padding-top: 50px; 
-        }
-        .animalRoom h2 {
-          font-size: 50px;
-        }
-        .animalRoom img {
-          height: 200px; 
-          position: absolute; 
-          top: 15px; 
-          left: 60px
-        }
-        .animalRoom p {
-          font-size: 40px;
-          line-height: 1.4;
-          width: 980px; 
-          position: absolute; 
-          top: 10px; 
-          left: 300px;
-          overflow: auto;
-        }
-
-        .posterHouse {
-          height: 1150px;
-          width: 100vw;
-          margin: 0 auto;
-        }
-
-        .posterRoomTXT {
-          max-width: 100vw;
-        }
-        .posterRoomTXT h2 {
-          font-size: 50px;
-        }
-        .posterRoomTXT p {
-          padding-top: 25px;
-          font-size: 20px;
-        }
-
-        .posterRoom {
-          max-width: 100vw;
-          height: 40vw;
-        }
-
-        .roomA {
-          max-width: 25vw;
-          left: 5vw;
-        }
-        .roomA img {
-          width: 25vw;
-        }
-
-        .roomB {
-          width: 25vw;
-          left: 37vw;
-        }
-        .roomB img {
-          width: 25vw;
-        }
-
-        .roomC {
-          width: 25vw;
-          left: 69vw;
-        }
-        .roomC img {
-          width: 25vw;
-        }
-      }
-
     </style>
 
     <!-- Custom styles for this template -->
@@ -430,11 +141,88 @@
     </div>
 
     <!-- <div style="border-color: blue; border-style:solid; border-width: 5px;"> -->
-    <div style="position: relative;">
+    
+    <div style="position: relative; height: 66.65617vw">
       <img src="../IMAGE/HomePage/採牡蠣.png" style="max-width: 100vw">
-      <img class="tlt" src="../IMAGE/HomePage/標題.png" style="max-width: 55vw; position: absolute; left: 60px; top: 20vmin;">
+      <img class="tltIMG" src="../IMAGE/HomePage/標題.png" style="position: absolute;">
+      <img class="introIMG" src="../IMAGE/HomePage/計畫介紹旁邊.jpg" style="position: absolute;">
+      <div class="introTXT" style="position: absolute;">
+        <h2 >計畫介紹</h2>
+        <p>本計畫聚焦於臺南七股的三股社區及黃金海岸旁的灣裡社區為實踐場域，以培養臺南海洋敘事藝文創作人才為願景，設立以 「培養鯤島海洋敘事藝文創作能力」及「啟動藝文展演永續臺南濱海城鄉互動再生」為課程主要議題，並對應SDGS永續城鄉以優質教育及永續城鄉為目標，進行計畫具體之規劃，以成立教師社群，建立教師社群培力模式，共同發展出議題導向敘事力的課程模組，從課程設計的內容和目標討論建立共識，再共同發展出教學流程與學習成就的評量方式，建立創新課程模組，落實以能力和素養導向來設計課程的未來大學學習和發展之重點趨勢，同時致力培養海洋文化敘事的藝文創作和展演人才以發展臺南濱海社區的永續和新生。</p>
+      </div>
     </div>
 
+    <div style="background-color: #FFDDAF;">
+      <div class="animalHouse">
+        <div class="animalTXT">
+          <h2 style="font-weight:bold; text-align:center;">計畫目標</h2>
+        </div>
+        
+        <div>
+          <div class="animalRoom">
+            <img src="../IMAGE/HomePage/標題小動物/crab.png" alt="crab">
+            <p style="float: right;">培養跨領域的教師社群，共同研發出創新的跨領域敘事力課程及模組，持續教師間跨領域多元敘事力的成長交流，以及更多跨領敘事力課程的研發創造。</p>
+          </div>
+        </div>
+
+        <div style="clear: both;">
+          <div class="animalRoom">
+            <img src="../IMAGE/HomePage/標題小動物/prawn.png" alt="prawn">
+            <p style="float: right;">透過創新的跨領域敘事力課程及模組的執行，培養學生面對議題跨領域敘事力學習及解決問題的能力，以及運用在地文化素材創造多元藝文作品及文創產品的能力。</p>
+          </div>
+        </div>
+
+        <div style="clear: both;">
+          <div class="animalRoom">
+            <img src="../IMAGE/HomePage/標題小動物/oyster.png" alt="oyster">
+            <p style="float: right;">透過大學跨領域敘事力課程的執行與實踐，帶領大學生進入社區做社會實踐且提供社區解決當下迫切問題的多元方法和路徑，同時培力社區及學校能夠運用多元文化行動持續改造社區的人力與人才。</p>
+          </div>
+        </div>
+
+        <div style="clear: both;">
+          <div class="animalRoom">
+            <img src="../IMAGE/HomePage/標題小動物/turtle.png" alt="turtle">
+            <p style="float: right;">建立且加入跨校合作的跨領域敘事力交流的實體與網路平臺，分享跨領域的知識產出與方法建構及交流，也形成跨校學生討論的平臺與熱點。</p>
+          </div>
+        </div>
+
+        <div style="clear: both;">
+          <div class="animalRoom">
+            <img src="../IMAGE/HomePage/標題小動物/fish.png" alt="fish">
+            <p style="float: right;">建立跨領域敘事力課程的教材教案與教法的資料庫，以刺激更多的師生投入跨領域敘事力的實驗與實踐教與學的歷程。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: white">
+      <div class="posterHouse">
+        <div class="posterTXT">
+          <h2 style="font-weight:bold; text-align:center;">藝文啟航－活動集錦</h2>
+          <p style="text-align:center;">計畫十大重點成果</p>
+          <p style="text-align:center;">展現「培養鯤島海洋敘事藝文創作能力」及「啟動藝文展演永續臺南濱海城鄉互動再生」的目標</p>
+        </div>
+
+        <div class="posterRoom">
+          <img src="../IMAGE/HomePage/集錦/資產 10.png">
+          <img src="../IMAGE/HomePage/集錦/資產 11.png">
+          <img src="../IMAGE/HomePage/集錦/資產 12.png">
+        </div>
+
+        <div class="posterRoom">
+          <img src="../IMAGE/HomePage/集錦/資產 5.png">
+          <img src="../IMAGE/HomePage/集錦/cbe9f3.png">
+          <img src="../IMAGE/HomePage/集錦/cbe9f3.png">
+        </div>
+
+        <div class="posterRoom">
+          <img src="../IMAGE/HomePage/集錦/資產 14.png">
+          <img src="../IMAGE/HomePage/集錦/資產 15.png">
+          <img src="../IMAGE/HomePage/集錦/資產 16.png">
+        </div>
+      </div>
+    </div>    
+    <!--
     <div style="height: 49vw; position: relative;">
       <div class="introIMG" style="max-height: 49vw;">
         <img src="../IMAGE/HomePage/計畫介紹旁邊.jpg">
@@ -540,20 +328,7 @@
           </div>
         </div>
       </div>
-      <!--
-      <div style="height: 160px; padding-top: 15px;">
-        <h2 align="center"><span style="font-weight:bold;">藝文啟航－活動集錦</span></h2>
-        <p align="center"><span>計畫十大重點成果</span></p>
-        <p align="center"><span>展現「培養鯤島海洋敘事藝文創作能力」及「啟動藝文展演永續臺南濱海城鄉互動再生」的目標</span></p>
-      </div>
-
-      
-      <div style="height: 540px; position: relative;">
-        <img src="../IMAGE/HomePage/集錦/資產 5.png" style="height: 500px; width: 400px; position: absolute; top: 15px; left: 22.5px;">
-        <img src="../IMAGE/HomePage/集錦/資產 7.png" style="height: 500px; width: 400px; position: absolute; top: 15px; left: 445px;">
-        <img src="../IMAGE/HomePage/集錦/資產 9.png" style="height: 500px; width: 400px; position: absolute; top: 15px; left: 867.5px;">
-      </div>
-      -->
     </div>
+    -->
   </body>
 </html>
