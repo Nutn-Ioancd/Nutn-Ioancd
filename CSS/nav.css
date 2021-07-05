@@ -19,12 +19,13 @@
   display:block;
   /*background: url(https://upload.cc/i1/2019/09/05/hWwqV5.png) no-repeat;*/
   background: url(../IMAGE/All/logo.png) no-repeat;
-  width: 101px;
-  height: 36px;
+  width: 150px;
+  height: 56px;
   float:left;
   text-indent:101%;
   overflow:hidden;
   white-space:nowrap;
+  /*border-color: blue; border-style:solid; border-width: 5px;*/
 }
 .nav{
   float:right;
@@ -34,7 +35,7 @@
 }
 .nav a{
   display:block;
-  padding:10px 15px 10px 10px;
+  padding:20px 15px 10px 10px;
   text-decoration:none;
   /*color:#fff;*/
   /*color:#FFE6B0;*/
