@@ -12,17 +12,49 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     -->
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+      a {
+        text-decoration: none;
+        color: black;
       }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+      .menuTLT {
+        position: absolute;
+        top: 12vw;
+        left: 24vw;
+        font-size: 50px;
+      }
+      .menu {
+        position: absolute;
+        left: 12vw;
+        top: 15vw;
+      }
+      .nullRow {
+        color: #c0d4ec;
+      }
+      .tIMG {
+        text-align: center;
+      }
+      .tIMG img {
+        max-width: 1vw;
+      }
+      .tTXT {
+        border-left: 2px solid black;
+        padding-top: 1vw;
+        font-size: 25px;
+        padding-left: 1vw;
+      }
+      .TT {
+        /*border-color: blue; border-style:solid; border-width: 5px;*/
+        position: relative;
+      }
+      @media (max-width: 768px) {
+        .menuTLT {
+          font-size: 20px;
+        }
+        .tTXT {
+          font-size: 10px;
+        }
+        .nn {
+          font-size: 1px;
         }
       }
     </style>
@@ -30,9 +62,11 @@
     <!-- Custom styles for this template -->
     <link href="../CSS/ResetCss.css" rel="stylesheet">
     <link href="../CSS/nav.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "../JS/Result.js"></script>
   </head>
 
-  <body>
+  <body style="background-color: #c0d4ec;">
     <div class="wrap">
       <div class="header clearfix">
         <h1 class="logo"><a href="HomePage.html">鯤島奇幻之旅</a></h1>
@@ -42,6 +76,65 @@
           <li><a href="#">計畫成果</a></li>
         </ul>
       </div>
+    </div>
+
+
+
+
+    <div class="TT">
+      <img src="../IMAGE/Result/入口/yBar.png" style="height: 35vw;">
+      <img src="../IMAGE/Result/入口/NUTN.png" style="max-width: 13vw; position: absolute; right: 0vw; top: 37vw;">
+      <img src="../IMAGE/Result/入口/OP.png" style="max-width: 4vw; position: absolute; right: 9.8vw; top: 3vw;">
+      <img class="Frame" src="../IMAGE/Result/入口/sun.png" style="max-width: 36vw; position: absolute; right: 13.3vw; top: 0vw;">
+
+      <h2 class="menuTLT">計畫成果</h2>
+      <table class="menu">
+        <tr class="nullRow">
+          <td style="border-bottom: 2px solid black;"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="nn" style="border-bottom: 2px solid black; border-left: 2px solid black;">You shouldn't see these words...</td>
+        </tr>
+
+        <tr class="fullRow A">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/mark.png"></td>
+          <td class="tTXT"><a href="ResultSun.html">追逐夕陽的青春夢</a></td>
+        </tr>
+
+        <tr class="fullRow B">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT"><a href="ResultOyster.html">聽牡蠣在唱歌</a></td>
+        </tr>
+
+        <tr class="fullRow C">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT"><a href="ResultSea.html">海的青春敘事</a></td>
+        </tr>
+
+        <tr class="fullRow D">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT"><a href="ResultHeat.html">熱轉印作品展</a></td>
+        </tr>
+
+        <tr class="fullRow E">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT"><a href="ResultBaby.html">寶寶劈漂流記</a></td>
+        </tr>
+
+        <tr class="fullRow F">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT"><a href="ResultGuide.html">灣裡導覽手冊</a></td>
+        </tr>
+
+        <tr class="fullRow G">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT" style="border-left: none;"><a href="ResultView.html">灣裡風景展</a></td>
+        </tr>
+
+        <tr class="fullRow H">
+          <td class="tIMG"><img src="../IMAGE/Result/入口/null.png"></td>
+          <td class="tTXT" style="border-left: none;"><a href="ResultResearch.html">研究成果</a></td>
+        </tr>
+
+      </table>
     </div>
 
     
