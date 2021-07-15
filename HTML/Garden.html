@@ -18,6 +18,7 @@
       }
       .tProfile {
         background-color: #c3f1fc;
+        position: relative;
       }
       .tPR {
         display: flex;
@@ -87,6 +88,25 @@
         padding-top: 2vw;
         font-size: 20px;
       }
+      .dBox {
+        /*opacity: 0.33;*/
+        /*background-opacity: 0.33;*/
+        background-color: gray;
+        background: rgba(0,0,0,0.33);
+        position: absolute;
+        top: 2vw;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      .dBox img {
+        flex: 1;
+        /*padding-left: 10vw;*/
+        /*max-width: 80vw;*/
+      }
       @media (max-width: 768px) {
         .expTitle {
           font-size: 15px;
@@ -114,6 +134,10 @@
     <!-- Custom styles for this template -->
     <link href="../CSS/ResetCss.css" rel="stylesheet">
     <link href="../CSS/nav.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "../JS/Garden.js"></script>
+
+    
   </head>
 
   <body style="background-color: #c3f1fc;">
@@ -147,7 +171,7 @@
           <p align="center">國立臺南大學</p>
           <p align="center">戲劇創作與應用學系</p>
           <p align="center">王婉容教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="0" type="button" value="教師心得 &raquo;"></p>
         </div>
 
         <div class="tP">
@@ -156,7 +180,7 @@
           <p align="center">國立臺南大學</p>
           <p align="center">文化與自然資源學系</p>
           <p align="center">張伯宇副教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="1" type="button" value="教師心得 &raquo;"></p>
         </div>
 
         <div class="tP">
@@ -165,7 +189,7 @@
           <p align="center">國立臺南大學</p>
           <p align="center">戲視覺藝術與設計學系</p>
           <p align="center">高實珩教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="2" type="button" value="教師心得 &raquo;"></p>
         </div>
       </div>
 
@@ -176,7 +200,7 @@
           <p align="center">國立臺南大學</p>
           <p align="center">文化與自然資源學系</p>
           <p align="center">王蔡米虹副教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="3" type="button" value="教師心得 &raquo;"></p>
         </div>
 
         <div class="tP">
@@ -185,7 +209,7 @@
           <p align="center">國立臺南大學</p>
           <p align="center">國語文學系</p>
           <p align="center">許舜傑助理教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="4" type="button" value="教師心得 &raquo;"></p>
         </div>
 
         <div class="tP">
@@ -194,7 +218,15 @@
           <p align="center">國立臺南大學</p>
           <p align="center">視覺藝術與設計學系</p>
           <p align="center">吳鴻滄助理教授</p>
-          <p align="center"><input type="button" value="教師心得 &raquo;"></p>
+          <p align="center"><input id="0" type="button" value="教師心得 &raquo;"></p>
+        </div>
+      </div>
+      
+      <div class="hiddenBox" style="visibility: hidden;">
+        <div class="dBox">
+          <img class="L" src="../IMAGE/Garden/教師心得/null.png" style="max-width: 10vw;">
+          <img class="frame" src="../IMAGE/Garden/教師心得/王婉容/0.png" style="max-width: 80vw;">
+          <img class="R" src="../IMAGE/Garden/教師心得/null.png" style="max-width: 10vw;">
         </div>
       </div>
     </div>
@@ -283,7 +315,7 @@
       <div style="position: absolute; top: 162vw; left: 72vw;">
         <p align="center"><img src="../IMAGE/Garden/經營歷程/國際論壇.png" style="max-width: 20vw;"></p>
         <p class="expTLT" align="center">當代藝術的社會實踐<br>跨校國際交流論壇</p>
-        <p class="expTXT" align="center">視覺藝術與設計學系</p>
+        <p class="expTXT" align="center">－110/05/12－</p>
       </div>
 
       <div style="position: absolute; top: 162vw; left: 40vw;">

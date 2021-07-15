@@ -14,6 +14,7 @@ $(document).ready(function() {
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".A a").attr("href", "ResultSun.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Sun.png");
     });
@@ -29,6 +30,7 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".B a").attr("href", "ResultOyster.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Oyster.png");
     });
@@ -44,6 +46,7 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultSea.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Sea.png");
     });
@@ -59,6 +62,7 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultHeat.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Heat.png");
     });
@@ -74,8 +78,9 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultBaby.html");
-        $(".Frame").attr("src", "../IMAGE/Result/入口/Baby.jpeg");
+        $(".Frame").attr("src", "../IMAGE/Result/入口/Baby.png");
     });
     $(".F").mouseover(function()
     {
@@ -89,6 +94,7 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/mark.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultGuide.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Guide.png");
     });
@@ -104,6 +110,7 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/mark.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultView.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/View.png");
     });
@@ -119,7 +126,24 @@ $(document).ready(function() {
         $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".H img").attr("src", "../IMAGE/Result/入口/mark.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/null.png");
         $(".C a").attr("href", "ResultResearch.html");
         $(".Frame").attr("src", "../IMAGE/Result/入口/Research.png");
+    });
+    $(".I").mouseover(function()
+    {
+        //var x = document.getElementById("demo");
+        //alert("Hi");
+        $(".A img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".B img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".C img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".D img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".E img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".F img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".G img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".H img").attr("src", "../IMAGE/Result/入口/null.png");
+        $(".I img").attr("src", "../IMAGE/Result/入口/mark.png");
+        $(".C a").attr("href", "ResultResearch.html");
+        $(".Frame").attr("src", "../IMAGE/Result/入口/線上成果標題資產 66.png");
     });
 });
