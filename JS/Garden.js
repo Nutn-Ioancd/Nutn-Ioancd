@@ -178,4 +178,146 @@ $(document).ready(function() {
         //    alert("Hi");
         //};
     });
+
+    $(".A").click(function()
+    {
+        //alert("Hi");
+        //var classCheck = this.getAttribute("class");
+        $(".AI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 55vw; visibility: visible;");
+        //startCount = 0;
+        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".B").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".BI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 55vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".C").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".CI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 88vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".D").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".DI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 90vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".E").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".EI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 120vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".F").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".FI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 120vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".G").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".GI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 155vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".H").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".HI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 155vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".I").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".II").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 188vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
+
+    $(".J").click(function()
+    {
+        //var classCheck = this.getAttribute("class");
+        $(".JI").attr("style", "max-width: 100vw; position: absolute; left: 11vw; top: 188vw; visibility: visible;");
+        //startCount = 0        //alert(classCheck);
+        //if (classCheck != "L") {
+        //    alert("Hi");
+        //}
+        //alert(classCheck);
+        //if (classCheck != "hiddenBox") && (classCheck != "L") && (classCheck != "R") && (classCheck != "frame") {
+        //    alert("Hi");
+        //};
+    });
 });
