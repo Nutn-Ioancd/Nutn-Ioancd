@@ -12,6 +12,16 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     -->
     <style>
+      body {
+        background-image: url(../IMAGE/Result/Guide/01-第一組01.jpg); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-attachment: fixed; 
+        box-shadow: none; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover;
+      }
       .leftHand {
         text-align: center;
         background-color: #e3efdb;
@@ -45,6 +55,13 @@
         padding-bottom: 5vw;
         /*padding-top: 8vw;*/
       }
+      @media (max-width: 786px) {
+        body {
+          -webkit-background-size: contain; 
+          -moz-background-size: contain; 
+          -o-background-size: contain;
+        }
+      }
       @media (max-width: 500px) {
         .leftHand h2 {
           font-size: 20px;
@@ -63,7 +80,7 @@
     <link href="../CSS/nav.css" rel="stylesheet">
   </head>
 
-  <body style="background-image: url(../IMAGE/Result/Guide/01-第一組01.jpg); background-repeat: no-repeat; background-size: Cover; background-attachment: fixed; box-shadow: none; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+  <body>
     <div class="wrap">
       <div class="header clearfix">
         <h1 class="logo"><a href="HomePage.html">鯤島奇幻之旅</a></h1>
