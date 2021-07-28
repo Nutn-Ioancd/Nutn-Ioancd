@@ -63,6 +63,16 @@ $(document).ready(function() {
         $(".hBox").attr("style", "display:none;");
     });
 
+    $(".M").click(function()
+    {
+        $(".MI").attr("style", "max-width: 85vw; position: absolute; left: 11vw; top: -8vw; display: block;");
+    });
+
+    $(".N").click(function()
+    {
+        $(".NI").attr("style", "max-width: 85vw; position: absolute; left: 11vw; top: -8vw; display: block;");
+    });
+
     $(".K").click(function()
     {
         $(".KI").attr("style", "max-width: 85vw; position: absolute; left: 11vw; top: 25vw; display: block;");
